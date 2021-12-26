@@ -75,10 +75,13 @@
         justify-content: center;
     }
     &__img-1 {
-        
         top: 6.4rem;
         width: 47rem;
         right: 0rem;
+
+        &.mobile {
+            display: none;
+        }
     }
     &__right {
         width: 35rem;

@@ -1,4 +1,6 @@
 .a-banner {
+
+    
     color: #fff;
     padding-top: 15.2rem;
     margin-bottom: 13rem;
@@ -46,6 +48,10 @@
     &__mid {
         width: 59.6rem;
         position: relative;
+
+        &.mobile {
+            display: none;
+        }
     }
     &__right {
         width: 30.9rem;

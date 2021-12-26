@@ -86,5 +86,11 @@
         overflow: hidden;
         border-radius: 5rem;
         @include cover;
+
+        & img{
+            &.mobile {
+            display: none;
+        }
+        }
     }
 }

@@ -87,6 +87,10 @@
       width: 94.1rem;
       height: 52.3rem;
       top: 7rem;
+
+      &.mobile {
+        display: none;
+      }
     }
     &__pic1{
       top: -17.3rem;

@@ -48,6 +48,10 @@
         color: #898D93;
         top: 2.3rem;
         margin-bottom: 3.7rem;
+
+        &.mobile {
+            display: none;
+        }
     }
     &__arrow{
         position: absolute;
