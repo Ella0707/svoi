@@ -26,6 +26,10 @@
         font-size: 1.8rem;
         color: #ffc2d1;
         margin-bottom: 5.1rem;
+
+        &.mobile {
+            display: none;
+        }
     }
     &__list {
         width: 87.7rem;

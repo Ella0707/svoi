@@ -91,6 +91,10 @@
         position: relative;
         top: -2.2rem;
         left: -3.2rem;
+
+        & .mobile {
+            display: none;
+        }
     }
     &__right {
         width: 35rem;
